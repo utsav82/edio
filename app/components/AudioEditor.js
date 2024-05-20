@@ -73,7 +73,7 @@ export default function Home({ url, time }) {
     </div>
   ) : (
     <div className="flex items-center justify-center">
-      <button className="py-3 px-6 bg-blue-500 text-white rounded">
+      <button className="py-3 px-6 bg-blue-500 text-white rounded mt-5">
         Loading FFmpeg
         {isLoading && (
           <span className="animate-spin ml-3">
