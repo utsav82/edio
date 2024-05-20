@@ -1,6 +1,6 @@
 # Audio Cutter Tool
 
-This project is a serverless, client-side audio cutter tool built with Next.js. It replicates the functionality of [vocalremover.org/cutter](https://vocalremover.org/cutter), allowing users to trim audio files directly in their browsers. The tool leverages JavaScript libraries and Web APIs for seamless performance.
+This project is a serverless, client-side audio cutter tool built with Next.js. The tool leverages JavaScript libraries and Web APIs for seamless performance.
 
 ## Features
 
@@ -32,7 +32,7 @@ Follow these instructions to set up the project locally.
 1. **Clone the repository:**
 
    ```sh
-   git clone https://github.com/your-username/audio-cutter-tool.git
+   git clone [https://github.com/your-username/audio-cutter-tool.git](https://github.com/utsav82/edio/)
    cd audio-cutter-tool
    ```
 
@@ -76,23 +76,6 @@ Follow these instructions to set up the project locally.
 4. **Trim and Download:**
    - Click the "Trim Audio" button to process the file. The trimmed audio will be available for download.
 
-## Folder Structure
-
-```
-audio-cutter-tool/
-├── components/
-│   └── AudioCutter.js   # Main component for the audio cutter tool
-├── pages/
-│   └── index.js         # Main entry point for the Next.js application
-├── public/
-│   └── ...              # Static assets
-├── styles/
-│   └── globals.css      # Global styles
-├── README.md            # This file
-├── package.json         # Project metadata and scripts
-└── ...
-```
-
 ## Customization
 
 - **UI Framework:** Tailwind CSS is used for styling. You can customize the UI by editing the classes in the JSX files.
@@ -114,8 +97,3 @@ This project is licensed under the MIT License.
 - [@ffmpeg/ffmpeg](https://github.com/ffmpegwasm/ffmpeg.wasm)
 - [@ffmpeg/util](https://github.com/ffmpegwasm/util)
 
-
-### Notes
-
-1. Replace `"https://github.com/your-username/audio-cutter-tool.git"` with the actual URL of your repository.
-2. Ensure you add instructions for any additional steps or configurations specific to your setup.
