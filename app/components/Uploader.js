@@ -6,12 +6,16 @@ const FileUploader = ({ onFileUpload }) => {
     }
   };
 
- 
   return (
     <div className="w-full h-48 p-6 border-2 border-gray-300 border-dashed rounded-lg cursor-pointer hover:bg-gray-50 dark:border-gray-600 dark:hover:bg-gray-700">
       <div className="flex flex-col items-center justify-center h-full space-y-2">
         <UploadIcon className="w-8 h-8 text-gray-400" />
-        <input className="pl-20" type="file" accept="audio/*" onChange={handleFileChange} />
+        <input
+          className="opacity-0 absolute"
+          type="file"
+          accept="audio/*"
+          onChange={handleFileChange}
+        />
         <p className="text-gray-500 dark:text-gray-400">
           Upload file here
         </p>
