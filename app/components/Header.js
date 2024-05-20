@@ -6,12 +6,12 @@ const Header = () => (
       <span className="sr-only">Audio Trimmer</span>
     </Link>
     <nav className="ml-auto flex gap-4 sm:gap-6">
-      <Link
+      <a
         className="text-sm font-medium hover:underline underline-offset-4"
-        href={"/"}
+        href="https://github.com/utsav82/edio"
       >
         GitHub
-      </Link>
+      </a>
     </nav>
   </header>
 );
