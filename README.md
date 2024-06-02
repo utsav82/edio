@@ -1,6 +1,6 @@
 # Audio Cutter Tool
 
-This project is a serverless, client-side audio cutter tool built with Next.js. The tool leverages JavaScript libraries and Web APIs for seamless performance.
+This project is a serverless, client-side audio cutter tool built with Next.js
 
 ## Features
 
@@ -71,7 +71,7 @@ Follow these instructions to set up the project locally.
    - Use the file input to upload an audio file from your device.
 
 3. **Specify Trim Times:**
-   - Enter the start and end times in seconds to specify the portion of the audio to trim.
+   - Enter the start and end times to specify the portion of the audio to trim.
 
 4. **Trim and Download:**
    - Click the "Trim Audio" button to process the file. The trimmed audio will be available for download.
